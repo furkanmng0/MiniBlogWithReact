@@ -1,0 +1,142 @@
+/* Genel container */
+.home-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Yeni Yazı Ekle butonu */
+.add-post-btn {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-post-btn:hover {
+  background-color: #45a049;
+}
+
+/* Post listesi */
+.post-list {
+   margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+
+.post-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+/* Detay butonu */
+.detail-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.detail-btn:hover {
+  background-color: #1976d2;
+}
+
+.delete-btn{
+  display: inline-flex;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #c61f1f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  gap: 3px;
+  cursor: pointer;
+  
+}
+
+
+/* post detail sayfası kodları */
+
+/* PostDetail sayfası container */
+.post-detail-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Geri Dön butonu */
+.post-detail-container button {
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.post-detail-container button:hover {
+  background-color: #d32f2f;
+}
+
+
+/* addpost sayfası için stil  */
+
+/* AddPost container */
+.add-post-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Form */
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+/* Input */
+.post-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.post-textarea{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Submit Butonu */
+.submit-btn {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
